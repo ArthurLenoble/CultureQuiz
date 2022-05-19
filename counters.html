@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset='utf-8'>
+        <title>Quiz Culture</title>
+        <link rel="icon" href="logo.png">
+        <link type="text/css" rel="stylesheet" href="counters.css">
+        <script src="counters.js"></script>
+    </header>
+    <body>
+        <div class="container">
+            <input class="team_input" type="text" value="Equipe 1"/>
+            <p class="score" id="score_team_1">0</p>
+            <div class="signs">
+                <p class="sign" onclick="minus_team1()">-</p>
+                <p class="sign" onclick="plus_team1()">+</p>
+            </div>
+        </div>
+        <div class="empty"></div>
+        <div class="container">
+            <input class="team_input" type="text" value="Equipe 2"/>
+            <p class="score" id="score_team_2">0</p>
+            <div class="signs">
+                <p class="sign" onclick="minus_team2()">-</p>
+                <p class="sign" onclick="plus_team2()">+</p>
+            </div>
+        </div>
+        <div id="bottom-container">
+            <a href="../main.html" class="bottom">Accueil du site</a>
+        </div>
+    </body>
+    
+</html>
