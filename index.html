@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset='utf-8'>
+        <title>Quiz Culture</title>
+        <link rel="icon" href="/quiz_site/logo.png">
+        <link type="text/css" rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+    </header>
+    <body>
+        <div class="head">
+            <div class="menu" onclick="showMenu()">
+                <span class='line'></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="head_bar">
+                <img src="logo.png"/>
+            </div>
+        </div>
+        <div class="menu-dropped"></div>
+
+        <div class="welcome">
+            <h1 class="title">Bienvenue au Culture Quiz!</h1>
+            <p class="subtitle">Mets toi à l’épreuve grâce au Culture Quiz sur ta culture générale et internet !</p>
+        </div>
+
+        <div class="cards">
+            <div class="card" class="card_1" >
+                <p id="art-title">QUIZ SUR</br>L’HISTOIRE DE L’ART</p>
+                <div class="description" class="art-description">En passant de Picasso à Rodin ou encore de Nick Ut à Cézanne, ce quiz saura défier vos connaissances sur le domaine de la peinture, de la sculpture ou encore de photographie</div>
+                <a href="quiz/artQuiz.html" class="btn" id="btn_1">Démarrer</a>
+            </div>
+            <div class="card" class="card_2" >
+                <p>QUIZ SUR</br>LA CULTURE INTERNET</p>
+                <p class="description" class="ytb-description">Si les plus grands youtubers francophones n'ont aucun secret pour vous et que vous êtes abonné à web buzz, alors prouvez vos connaissances à travers ce quiz qui devrait ne vous poser aucun problème</p>
+                <a href="quiz/ytbQuiz.html" class="btn">Démarrer</a>
+            </div>
+        </div>
+        <div class="all-quiz"><a id="link" href="allquiz.html">Tous les quiz disponibles</a></div>
+    </body>
+</html>
